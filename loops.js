@@ -18,13 +18,12 @@ function whileLoop(myNumber){
   }
   return 'done'
 }
-  
+function maybeTrue() {
+  return Math.random() >= 0.5
+}
 function doWhileLoop(myArray){
   do{
     myArray.pop
   }while(maybeTrue() && myArray.length>0)
 }
 
-function maybeTrue() {
-  return Math.random() >= 0.5
-}
