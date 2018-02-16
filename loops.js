@@ -25,5 +25,6 @@ function doWhileLoop(myArray){
   do{
     myArray.pop()
   } while(maybeTrue() && myArray.length>0)
+  return myArray
 }
 
