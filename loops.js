@@ -19,3 +19,6 @@ function whileLoop(myNumber){
   return 'done'
 }
   
+function doWhileLoop(myArray){
+  
+}
